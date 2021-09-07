@@ -9,6 +9,7 @@
 </head>
 <body>
     <main>
+        <!-- Search section -->
         <section class="container d-flex flex-column align-items-center" id="search-area">
             <img src="images/weather.png" class="img-fluid w-25" alt="">
             <div class="input-group mb-3 w-50">
@@ -19,6 +20,19 @@
                 </button>
             </div>
         </section>
+        <!-- End Search Section -->
+
+        <!-- Search Result section -->
+
+        <section class="container d-flex flex-column align-items-center" id="search-result">
+            <h3 id="city-not-found" class="d-none text-danger">City Not Found!</h3>
+            <img id="weather-icon" src="" alt="">
+            <p id="city-name" class="fs-1 text-center"></p>
+            <p id="weather-temp" class="fs-4 text-center"></p>
+            <p id="weather-condition" class="fs-5 text-center"></p>
+        </section>
+
+        <!-- End Search Result section -->
     </main>
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
